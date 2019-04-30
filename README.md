@@ -6,7 +6,11 @@ The data set is constructed using two attributes, X and Y as predictive attribut
 The goal field attributes are probabilities that the classification is RED or GREEN given the predictive attributes X and Y.
 
 Controls
+
 Left click and Right click adds a training example at the position the mouse was clicked, using X and Y as two predictive attributes.
+
 C clears the data set and generates a new NeuralNetwork model.
+
 R adds 20 random data points.
+
 P pauses the network, when paused new data points can still be added, the network won't train on those until P is pressed again to unpause.
